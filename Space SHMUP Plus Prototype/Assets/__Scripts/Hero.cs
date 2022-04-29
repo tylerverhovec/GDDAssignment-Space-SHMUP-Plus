@@ -27,14 +27,13 @@ public class Hero : MonoBehaviour {
     // Create a WeaponFireDelegate field named fireDelegate.
     public WeaponFireDelegate fireDelegate;
 
-    void Awake() {
-        if (S == null) {
-            S = this; // Set the Singleton
-        }    
-     // else {
-     //     Debug.LogError("Hero.Awake() - Attempted to assign second Hero.S!");
-     // }
+    void Start() {
+        S = this; // Set the Singleton
      // fireDelegate += TempFire;
+
+        // Reset the weapons to start _Hero with 1 blaster
+        ClearWeapons();
+        weapons[0].SetType(WeaponType.blaster);
     }
 
     void Update () {
