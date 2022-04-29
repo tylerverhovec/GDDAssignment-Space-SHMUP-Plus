@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b303b7d9d14e0e439adad460ea55166, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 40
   rollMult: -45
   pitchMult: 30
   gameRestartDelay: 2
