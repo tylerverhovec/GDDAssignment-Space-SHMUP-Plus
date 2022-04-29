@@ -1283,13 +1283,18 @@ MonoBehaviour:
   - {fileID: 5081057948645846949, guid: ff9b63b1083ba5145a84c5c22c85e961, type: 3}
   - {fileID: 5081057948645846949, guid: ff9b63b1083ba5145a84c5c22c85e961, type: 3}
   - {fileID: 5081057948645846949, guid: ff9b63b1083ba5145a84c5c22c85e961, type: 3}
+  - {fileID: 5081057948645846949, guid: ff9b63b1083ba5145a84c5c22c85e961, type: 3}
   - {fileID: 3823052159172416355, guid: c622abef283f14440a5e12dfbe37e667, type: 3}
   - {fileID: 3823052159172416355, guid: c622abef283f14440a5e12dfbe37e667, type: 3}
+  - {fileID: 3823052159172416355, guid: c622abef283f14440a5e12dfbe37e667, type: 3}
+  - {fileID: 2493296580581532305, guid: 1ea41b9ca17a08841ade70d705f490b7, type: 3}
   - {fileID: 2493296580581532305, guid: 1ea41b9ca17a08841ade70d705f490b7, type: 3}
   - {fileID: 2493296580581532305, guid: 1ea41b9ca17a08841ade70d705f490b7, type: 3}
   - {fileID: 4354453027247860073, guid: 898317b70ac00eb47bd07dca9b2d4e92, type: 3}
   - {fileID: 4354453027247860073, guid: 898317b70ac00eb47bd07dca9b2d4e92, type: 3}
   - {fileID: 1907249427500247257, guid: 4198e19d39c29c145bbba2f4c84861eb, type: 3}
+  - {fileID: 1907249427500247257, guid: 4198e19d39c29c145bbba2f4c84861eb, type: 3}
+  - {fileID: 5081057948645846949, guid: 1fa84aada477c214d94a8fd564554ab6, type: 3}
   enemySpawnPerSecond: 1
   enemyDefaultPadding: 1.5
   weaponDefinitions:
@@ -1312,7 +1317,7 @@ MonoBehaviour:
     delayBetweenShots: 0.4
     velocity: 50
   - type: 6
-    letter: O
+    letter: SH
     color: {r: 0.41960788, g: 0.7372549, b: 0.2392157, a: 1}
     projectilePrefab: {fileID: 0}
     projectileColor: {r: 0.41960788, g: 0.7372549, b: 0.2392157, a: 1}
